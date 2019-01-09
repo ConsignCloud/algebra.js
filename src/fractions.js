@@ -9,7 +9,7 @@ var Fraction = function(a, b) {
         this.numer = a;
         this.denom = b;
     } else {
-        throw new TypeError("Invalid Argument ("+a.toString()+ ","+ b.toString() +"): Divisor and dividend must be of type Integer.");
+        // throw new TypeError("Invalid Argument ("+a.toString()+ ","+ b.toString() +"): Divisor and dividend must be of type Integer.");
     }
 };
 
