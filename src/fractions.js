@@ -5,11 +5,9 @@ var lcm = require('./helper').lcm;
 var Fraction = function(a, b) {
     if (b === 0) {
         throw new EvalError("Divide By Zero");
-    } else if (isInt(a) && isInt(b)) {
+    } else {
         this.numer = a;
         this.denom = b;
-    } else {
-        // throw new TypeError("Invalid Argument ("+a.toString()+ ","+ b.toString() +"): Divisor and dividend must be of type Integer.");
     }
 };
 
